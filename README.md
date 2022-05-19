@@ -6,8 +6,9 @@ dataset.
 
 This project required me dive into my own personal experience and domain knowledge in product manufacture to extract additional information from the given serial numbers to 
 identify the device model. After data cleansing, extraction and manipulation, a classification-based model was built to predict whether a device will fail or not. The model was 
-tested using the following classification algorithm: Gaussian, Bernoulli, K-Nearest Neighbor, Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting. Gradient 
-Boosting Classifier demonstrated in the best results with an accuracy score: 0.929, precision score: 0.908, recall score: 0.920, f1 score: 0.914. 
+tested using the following classification algorithm: Gaussian, Bernoulli, K-Nearest Neighbor, Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting. Random Forest demonstrated in the best results.
+
+Despite the decent outcome, the data set test is a very small sample size with just over 1100 samples. 
 
 
 
