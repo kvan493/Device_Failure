@@ -6,7 +6,7 @@ dataset.
 
 This project required me dive into my own personal experience and domain knowledge in product manufacture to extract additional information from the given serial numbers to 
 identify the device model. After data cleansing, extraction and manipulation, a classification-based model was built to predict whether a device will fail or not. The model was 
-tested using the following classification algorithm: Gaussian, Bernoulli, K-Nearest Neighbor, Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting. Random Forest demonstrated in the best results.
+tested using the following classification algorithm: Gaussian, Bernoulli, K-Nearest Neighbor, Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting. Gradient Boosting demonstrated the highest F1 score in this run. F1 is used as an evaluation metric because it false negatives and false positives are both equally costly in the case of device maintenancing. We want to optimize and reduce the cost of labor and downtime. 
 
 Despite the decent outcome, the data set test is a very small sample size with just over 1100 samples. 
 
